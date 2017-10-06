@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/master/Development/android/AndroidApps/study/AltanTeamApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/master/Development/android/AndroidApps/study/AltanTeamApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a845fb99ba2acd6b69ca549b34fa83505ed6c452/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/master/Development/android/AndroidApps/study/AltanTeamApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="09561ba22fe9555283f6d90295b4824713610fbc">
+        <dex dex="/home/master/Development/android/AndroidApps/study/AltanTeamApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a7e00ae9c87d230ec483f056fa8074dc384de852/classes.dex" />
+    </item>
+
+</items>

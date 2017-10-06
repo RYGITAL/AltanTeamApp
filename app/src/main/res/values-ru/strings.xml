@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm">Подтвердить</string>
+    <string name="enter_id">Введите ID</string>
+    <string name="comment">Комментарий</string>
+    <string name="photo">Фото</string>
+    <string name="post">Пост</string>
+    <string name="todo">Todo</string>
+    <string name="users">Пользователи</string>
+    <string name="home">Главная</string>
+    <string name="contacts">Контакты</string>
+    <string name="about">Здравствуйте, мое имя - Антон.\nМоя электронная почта: rygital@gmail.com\nЭто приложение создано для AtlanTeam в качестве тестового задания.</string>
+</resources>
