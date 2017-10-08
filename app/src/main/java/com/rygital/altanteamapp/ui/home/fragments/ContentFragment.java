@@ -31,8 +31,11 @@ import javax.inject.Inject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import butterknife.Unbinder;
 
 public class ContentFragment extends Fragment implements IContentView {
+    private Unbinder unbinder;
+
     @BindView(R.id.etPostID) EditText etPostID;
     @BindView(R.id.tvPost) TextView tvPost;
     @BindView(R.id.etCommentID) EditText etCommentID;
@@ -60,7 +63,7 @@ public class ContentFragment extends Fragment implements IContentView {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_content, container, false);
-        ButterKnife.bind(this, view);
+        unbinder = ButterKnife.bind(this, view);
 
         presenter.getUsers();
         presenter.getPhoto("3");
@@ -127,5 +130,11 @@ public class ContentFragment extends Fragment implements IContentView {
                 "\nUser ID: " + todo.getUserId() +
                 "\nTitle: " + todo.getTitle() +
                 "\nCompleted: " + todo.getCompleted());
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        unbinder.unbind();
     }
 }
